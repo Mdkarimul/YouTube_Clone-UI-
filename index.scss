@@ -4,6 +4,7 @@
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
     color:#5a5a5a;
@@ -63,11 +64,13 @@ margin-right:25px;
 
 .sidebar{
     background-color: #fff;
-    padding-top:20px;
+    padding-top:12px;
     height: auto;
     width:15%;
     float: left;
     padding-left:2%;
+    z-index: 100;
+    height:100%;
 }
 
 .sidebar .shortcut-link a img{
@@ -125,7 +128,7 @@ margin-right:25px;
      padding-bottom:20px;
      overflow: scroll;
      width:auto;
-     height: 100vh;
+     height:91.7vh;
 }
 .banner{
     width:100%;
